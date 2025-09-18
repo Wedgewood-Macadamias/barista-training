@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barista Training Manual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home-button">
+        <img src="./images/coffee-bean-icon.png" alt="Coffee Bean Icon" class="header-icon">
+        <h1>Barista Training Manual</h1>
+    </header>
+    <div class="container">
+        <nav id="drink-menu">
+            <h2>Select a Drink</h2>
+            <ul id="drink-list">
+                <!-- Drink buttons will be populated by JS -->
+            </ul>
+        </nav>
+        <main id="recipe-display">
+            <div id="welcome-message">
+                <h2>Welcome, Trainee!</h2>
+                <p>Select a drink from the menu on the left to get started.</p>
+                <img src="./images/latte-art.png" alt="Latte art" class="welcome-image">
+            </div>
+            <div id="recipe-content" class="hidden">
+                <h2 id="drink-name"></h2>
+                <p id="drink-description"></p>
+                <h3>Steps:</h3>
+                <ol id="recipe-steps"></ol>
+                <div id="step-navigation">
+                    <button id="prev-step" class="hidden">Previous</button>
+                    <button id="next-step" class="hidden">Next</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
