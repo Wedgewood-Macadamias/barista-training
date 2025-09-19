@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'An espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam.',
             steps: [
                 { text: 'Pull a double shot of espresso into a cappuccino cup.', image: './images/cappuccino-step-1.png' },
-                { text: 'Steam (120-150ml) of cold milk, aerating it more than a latte to create thick, airy foam.', image: './images/cappuccino-step-2.png' },
+                { text: 'Steam 120-150ml of cold milk, aerating it more than a latte to create thick, airy foam.', image: './images/cappuccino-step-2.png' },
                 { text: 'The final volume should be about one-third espresso, one-third steamed milk, and one-third foam.', image: './images/cappuccino-step-3.png' },
                 { text: 'Groom the milk by swirling and tapping the pitcher to create a glossy texture.', image: './images/cappuccino-step-4.png' },
                 { text: 'Pour the steamed milk over the espresso, holding back the foam with a spoon initially.', image: './images/cappuccino-step-5.png' },
@@ -262,3 +262,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
