@@ -98,6 +98,7 @@ header h1 {
     flex: 3;
     border: 1px solid var(--accent-color);
     border-radius: 8px;
+    background: #fff;
 }
 
 #welcome-message {
@@ -228,4 +229,5 @@ header h1 {
     .container {
         flex-direction: column;
     }
+
 }
