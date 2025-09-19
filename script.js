@@ -132,15 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 { text: 'Immediately pour the hot espresso over the scoop of gelato.', image: './images/affogato-step-3.png' },
                 { text: 'Serve with a spoon and enjoy the delicious contrast of hot and cold.', image: './images/affogato-step-4.png' }
             ]
-        },
-        'Frappe': {
-            description: 'A blended iced coffee drink, often topped with whipped cream. Perfect for a hot day.',
-            steps: [
-                { text: 'Combine 2 shots of chilled espresso, approx. 90 ml of milk, 1 tablespoon of sugar, and a large cup of ice in a blender.', image: './images/frappe-step-1.png' },
-                { text: 'Blend on high speed until the mixture is smooth and the ice is fully crushed.', image: './images/frappe-step-2.png' },
-                { text: 'Pour the blended mixture into a tall, chilled glass.', image: './images/frappe-step-3.png' },
-                { text: 'Garnish with a generous swirl of whipped cream and a sprinkle of cocoa or a drizzle of syrup.', image: './images/frappe-step-4.png' }
-            ]
         }
     };
 
@@ -262,4 +253,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
 
