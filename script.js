@@ -78,11 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'Hot Chocolate': {
             description: 'A classic, comforting drink made with rich chocolate and steamed milk.',
             steps: [
-                { text: 'Add 2-3 pumps of chocolate sauce to the bottom of a mug.', image: './images/hot-chocolate-step-1.png' },
-                { text: 'Steam milk to a smooth, velvety texture, similar to a latte.', image: './images/hot-chocolate-step-2.png' },
-                { text: 'Pour the hot, steamed milk into the mug.', image: './images/hot-chocolate-step-3.png' },
-                { text: 'Stir thoroughly to combine the chocolate and milk.', image: './images/hot-chocolate-step-4.png' },
-                { text: 'Top with whipped cream and a sprinkle of cocoa powder.', image: './images/hot-chocolate-step-5.png' }
+                { text: "Warm the mug that you're serving the hot drink in with the steamer on the coffee machine.", image: './images/new-hot-chocolate-step-1.png' },
+                { text: 'Pour 143 mls of milk into a milkshake cup.', image: './images/new-hot-chocolate-step-2.png' },
+                { text: 'Steam the milk on the wand on the coffee machine until the milk is hot.', image: './images/new-hot-chocolate-step-3.png' },
+                { text: 'Scoop 107g of frozen hot chocolate base mix into the hot milk.', image: './images/new-hot-chocolate-step-4.png' },
+                { text: 'Place milk shake cup on milkshake mixer and spin for 15 seconds.', image: './images/new-hot-chocolate-step-5.png' },
+                { text: 'Steam the mixture on the coffee wand on the coffee machine to heat and serve.', image: './images/new-hot-chocolate-step-6.png' }
             ]
         },
         'Macchiato': {
@@ -253,5 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
 
 
