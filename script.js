@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { text: 'Distribute and tamp the grounds evenly in the portafilter with firm pressure.', image: './images/espresso-step-2.png' },
                 { text: 'Lock the portafilter into the group head of the espresso machine.', image: '../images/espresso-step-3.png' },
                 { text: 'Place a pre-warmed cup under the spouts and start the extraction.', image: './images/espresso-step-4.png' },
-                { text: 'Aim for a 25-30 second shot, yielding about 2 ounces (60ml) of espresso.', image: './images/espresso-step-5.png' },
+                { text: 'Aim for a 25-30 second shot, yielding about (60ml) of espresso.', image: './images/espresso-step-5.png' },
                 { text: 'Serve immediately for the best flavor.', image: './images/espresso-step-6.png' }
             ]
         },
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'A coffee drink made with espresso and steamed milk, characterized by a thin layer of foam on top.',
             steps: [
                 { text: 'Pull a double shot of espresso into a latte cup.', image: './images/latte-step-1.png' },
-                { text: 'Steam 5-6 oz (150-180ml) of cold milk, creating a smooth, velvety microfoam.', image: './images/latte-step-2.png' },
+                { text: 'Steam (150-180ml) of cold milk, creating a smooth, velvety microfoam.', image: './images/latte-step-2.png' },
                 { text: 'Swirl the steamed milk to incorporate the foam and milk.', image: './images/latte-step-3.png' },
                 { text: 'Gently pour the steamed milk into the center of the espresso.', image: './images/latte-step-4.png' },
                 { text: 'As the cup fills, lift the pitcher to create a thin layer of foam on top.', image: './images/latte-step-5.png' },
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'An espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam.',
             steps: [
                 { text: 'Pull a double shot of espresso into a cappuccino cup.', image: './images/cappuccino-step-1.png' },
-                { text: 'Steam 4-5 oz (120-150ml) of cold milk, aerating it more than a latte to create thick, airy foam.', image: './images/cappuccino-step-2.png' },
+                { text: 'Steam (120-150ml) of cold milk, aerating it more than a latte to create thick, airy foam.', image: './images/cappuccino-step-2.png' },
                 { text: 'The final volume should be about one-third espresso, one-third steamed milk, and one-third foam.', image: './images/cappuccino-step-3.png' },
                 { text: 'Groom the milk by swirling and tapping the pitcher to create a glossy texture.', image: './images/cappuccino-step-4.png' },
                 { text: 'Pour the steamed milk over the espresso, holding back the foam with a spoon initially.', image: './images/cappuccino-step-5.png' },
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'A type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.',
             steps: [
                 { text: 'Begin by pulling a single or double shot of espresso into a cup.', image: './images/americano-step-1.png' },
-                { text: 'Heat water to about 160-170°F (70-75°C) - not boiling.', image: './images/americano-step-2.png' },
+                { text: 'Heat water to about 70-75°C - not boiling.', image: './images/americano-step-2.png' },
                 { text: 'Gently pour the hot water over the espresso.', image: './images/americano-step-3.png' },
                 { text: 'The standard ratio is 1:2 espresso to water, but this can be adjusted to taste.', image: './images/americano-step-4.png' },
                 { text: 'Leave a little room at the top if the customer might add milk.', image: './images/americano-step-5.png' },
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'A refreshing and creamy chocolate milk, made to order. A perfect cold treat.',
             steps: [
                 { text: 'Drizzle chocolate syrup inside a tall, chilled glass.', image: './images/cold-chocolate-step-1.png' },
-                { text: 'Pour in 8-10 oz of cold milk.', image: './images/cold-chocolate-step-2.png' },
+                { text: 'Pour in 240-300 ml of cold milk.', image: './images/cold-chocolate-step-2.png' },
                 { text: 'Add a generous amount of ice cubes.', image: './images/cold-chocolate-step-3.png' },
                 { text: 'Stir vigorously until the chocolate is well mixed with the milk.', image: './images/cold-chocolate-step-4.png' },
                 { text: 'Top with whipped cream and an extra drizzle of chocolate syrup.', image: './images/cold-chocolate-step-5.png' }
@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'Flat White': {
             description: 'Originating from Australia/New Zealand, a flat white is made with espresso and microfoam. It has a higher coffee-to-milk ratio than a latte and a velvety consistency.',
             steps: [
-                { text: 'Pull a double shot of espresso into a 6 oz ceramic cup.', image: './images/flat-white-step-1.png' },
-                { text: 'Steam 4-5 oz of milk to create a fine, velvety microfoam with very little aeration.', image: './images/flat-white-step-2.png' },
+                { text: 'Pull a double shot of espresso into approx. 180 ml ceramic cup.', image: './images/flat-white-step-1.png' },
+                { text: 'Steam 120-150 ml of milk to create a fine, velvety microfoam with very little aeration.', image: './images/flat-white-step-2.png' },
                 { text: 'Groom the milk by swirling the pitcher to ensure a consistent, silky texture.', image: './images/flat-white-step-3.png' },
                 { text: 'Pour the milk into the espresso, creating a small dot or simple latte art on top.', image: './images/flat-white-step-4.png' },
                 { text: 'The final drink should have a very thin, glossy layer of microfoam on the surface.', image: './images/flat-white-step-5.png' }
@@ -108,8 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'Cortado': {
             description: 'A Spanish-origin drink consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity. The milk is steamed, but not frothy.',
             steps: [
-                { text: 'Pull a double shot of espresso into a small 4.5 oz glass tumbler (a Gibraltar glass).', image: './images/cortado-step-1.png' },
-                { text: 'Lightly steam an equal amount of milk (approx. 2 oz). Do not create significant foam.', image: './images/cortado-step-2.png' },
+                { text: 'Pull a double shot of espresso into a small approx. 135 ml glass tumbler (a Gibraltar glass).', image: './images/cortado-step-1.png' },
+                { text: 'Lightly steam an equal amount of milk (approx. 60 ml). Do not create significant foam.', image: './images/cortado-step-2.png' },
                 { text: 'Gently pour the steamed milk over the espresso.', image: './images/cortado-step-3.png' },
                 { text: 'The milk should cut through the espresso, resulting in a drink with a uniform color and a very thin layer of microfoam.', image: './images/cortado-step-4.png' }
             ]
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Frappe': {
             description: 'A blended iced coffee drink, often topped with whipped cream. Perfect for a hot day.',
             steps: [
-                { text: 'Combine 2 shots of chilled espresso, 3 oz of milk, 1 tablespoon of sugar, and a large cup of ice in a blender.', image: './images/frappe-step-1.png' },
+                { text: 'Combine 2 shots of chilled espresso, approx. 90 ml of milk, 1 tablespoon of sugar, and a large cup of ice in a blender.', image: './images/frappe-step-1.png' },
                 { text: 'Blend on high speed until the mixture is smooth and the ice is fully crushed.', image: './images/frappe-step-2.png' },
                 { text: 'Pour the blended mixture into a tall, chilled glass.', image: './images/frappe-step-3.png' },
                 { text: 'Garnish with a generous swirl of whipped cream and a sprinkle of cocoa or a drizzle of syrup.', image: './images/frappe-step-4.png' }
@@ -259,5 +259,6 @@ document.addEventListener('DOMContentLoaded', () => {
         li.appendChild(button);
         drinkList.appendChild(li);
     });
+
 
 });
